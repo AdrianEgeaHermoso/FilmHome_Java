@@ -8,9 +8,15 @@ and open the template in the editor.
     Author     : alumno
 */
 
-body{
-    background-image: "https://diariodevalladolid.elmundo.es/media/diariodevalladolid/images/2020/03/26/2020032611574969143.jpg";
+
+
+
+tbody{
+    background-color: green;
+   
 }
+
+
 
 h2{
     text-align: center;
@@ -20,4 +26,5 @@ h2{
     display:flex;
     justify-content: center;
     align-items: center;
+    background-color: green;
 }

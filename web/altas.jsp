@@ -15,7 +15,7 @@
     <body>
         <h2>Introduzca los datos de la nueva película:</h2>
         <form method="get" action="index.jsp">
-            Id <input type="number" name="id"/></br>
+            Id <input type="text" name="id"/></br>
             Título <input type="text" name="titulo"/></br>
             Genero <input type="text" name="genero"/></br>
             Sinopsis <input type="text" name="sinopsis"/></br>
