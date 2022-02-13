@@ -213,7 +213,72 @@
                         </div>
                     </div>
                 </div>
+                    
+                    
+                    
+                    <%
+          Class.forName("com.mysql.jdbc.Driver");
+          Connection conexion2 = DriverManager.getConnection("jdbc:mysql://localhost:3308/youtube?useSSL=false&allowPublicKeyRetrieval=true", "root", "root");
+          Statement t = conexion2.createStatement();
 
+          ResultSet listado2 = t.executeQuery("SELECT * FROM deseo");
+        %>
+        
+        
+
+        <div class="text-center" style="margin-bottom: 100px; margin-top: 100px">
+
+            <a class="btn btn-primary btn-lg" style="background-color: #323539" href="formulario2.jsp"><img src="./images/cloud-plus-fill.svg" alt="x" width="50px" height="60px"/> Alta de Deseos</a>
+            <br>
+        </div>
+
+
+        <h2 style="background-color: #323539;">LISTA DE DESEOS</h2>
+
+        <table class="table table-dark table-hover" style="margin-bottom: 100px">
+            <thead>
+                <tr class="text-center">
+                    <th scope="col">Id</th>
+                    <th scope="col">Titulo</th>
+                    <th scope="col">Genero</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Formato</th>
+                    <th scope="col">Puntuación</th>
+                    <th scope="col">Eliminar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <%
+                  while (listado2.next()) {
+
+                %>
+                <tr class="text-center">
+                    <td><%=listado2.getString("id")%></td>
+                    <td><%=listado2.getString("titulo")%></td>
+                    <td><%=listado2.getString("genero")%></td>
+                    <td><%=listado2.getString("precio")%></td>
+                    <td><%=listado2.getString("formato")%></td>
+                    <td><%=listado2.getString("puntuacion")%></td>
+                    <!--<td><a class="btn btn-warning btn-sm"><img src="./images/pencil-fill.svg" alt="x" /><p></p>Editar</a></td>-->
+                    <td><form method="get" action="bajas.jsp">
+                            <input type="hidden" name="id" value="<%=listado2.getString("id")%>"/>
+                            <button type="submit" class="btn btn-danger btn-sm"><img src="./images/trash-fill.svg" alt="x" /><p></p> Eliminar</button>
+                        </form></td>
+
+                </tr>
+
+
+
+
+
+                <%
+                  }
+
+                  conexion2.close();
+                %>
+            </tbody>
+
+        </table>
 
                 </body>
                 
