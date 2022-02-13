@@ -81,7 +81,6 @@
 
 
                 <%
-                    //out.println(listado.getString("id") + " " + listado.getString("nombre") + listado.getString("email") + listado.getString("pais") +"<br>");
                   }
 
                   conexion.close();

@@ -23,13 +23,13 @@
           request.setCharacterEncoding("UTF-8");
           
           String insercion = "INSERT INTO pelicula (id,titulo,genero,precio,formato,puntuacion) VALUES ("
-                           + Integer.valueOf(request.getParameter("id"))
-                           + "," + request.getParameter("titulo")
-                           + "," + request.getParameter("genero")
-                           + "," + Integer.valueOf(request.getParameter("precio"))
-                           + "," + request.getParameter("formato")
-                           + "," + Integer.valueOf(request.getParameter("puntuacion"))
-                           + ")";
+                           + "'" + request.getParameter("id")
+                           + "','" + request.getParameter("titulo")
+                           + "','" + request.getParameter("genero")
+                           + "','" + request.getParameter("precio")
+                           + "','" + request.getParameter("formato")
+                           + "','" + request.getParameter("puntuacion")
+                           + "')";
           s.execute(insercion);
           conexion.close();
         %>

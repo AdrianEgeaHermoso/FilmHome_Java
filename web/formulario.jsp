@@ -21,11 +21,11 @@
         <h2>Introduzca los datos de la nueva película:</h2>
         <form method="get" action="altas.jsp">
             Id <input type="text" name="id"/></br>
-            Título <input type="text" name="titulo"/></br>
+            Titulo <input type="text" name="titulo"/></br>
             Genero <input type="text" name="genero"/></br>
             Precio <input type="text" name="precio"/></br>
             Formato <input type="text" name="formato"/></br>
-            Puntuación <input type="text" name="puntuacion"/></br>
+            Puntuacion <input type="text" name="puntuacion"/></br>
             
             <input type="submit" value="Aceptar">
             
