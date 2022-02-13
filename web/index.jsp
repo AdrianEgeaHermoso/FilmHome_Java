@@ -17,8 +17,8 @@
 
 
     <body style="background: url(./images/fondo1.jpg); padding: 10px">
-        
-        
+
+
         <%
           Class.forName("com.mysql.jdbc.Driver");
           Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3308/youtube?useSSL=false&allowPublicKeyRetrieval=true", "root", "root");
@@ -27,16 +27,7 @@
           ResultSet listado = s.executeQuery("SELECT * FROM pelicula");
         %>
         <h2>MIS PELÍCULAS</h2>
-        
-        <form method="get" action="altas.jsp">
-          <tr><td><input type="text" name="id" size="5"></td>
-              <td><input type="text" name="titulo" size="30"></td>
-              <td><input type="text" name="genero" size="5"></td>
-              <td><input type="text" name="precio" size="5"></td>
-              <td><input type="text" name="formato" size="20"></td>
-              <td><input type="text" name="puntuacion" size="5"></td>
-              <td><button type="submit" value="Añadir" class="btn btn-primary">Añadir</button></td><td></td></tr>           
-        </form>
+
 
         <a class="btn btn-primary btn-lg" href="formulario.jsp"><img src="./images/cloud-plus-fill.svg" alt="x" width="50px" height="60px"/> Alta de Películas</a>
         <br>
@@ -87,6 +78,16 @@
                 %>
             </tbody>
         </table>
+            
+            <form method="get" action="modificar.jsp">
+            <tr><td><input type="text" name="id" size="5"></td>
+                <td><input type="text" name="titulo" size="30"></td>
+                <td><input type="text" name="genero" size="5"></td>
+                <td><input type="text" name="precio" size="5"></td>
+                <td><input type="text" name="formato" size="20"></td>
+                <td><input type="text" name="puntuacion" size="5"></td>
+                <td><button type="submit" value="Añadir" class="btn btn-primary">Modificar</button></td><td></td></tr>           
+        </form>
 
         <div class="grid">
             <div class="row">

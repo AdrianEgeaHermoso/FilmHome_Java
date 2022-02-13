@@ -23,6 +23,8 @@
       
       s.close();
     %>	
-    <script>document.location = "index.jsp"</script>
+    <script>
+    alert("Pelicula Borrada");
+    document.location = "index.jsp"</script>
     </body>
 </html>
