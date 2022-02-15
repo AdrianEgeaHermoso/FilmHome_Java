@@ -34,7 +34,7 @@
           conexion.close();
         %>
         <script>
-        alert("Pelicula Añadida");
+        alert("Deseo Añadido");
         document.location = "index.jsp"
     </script>
     </body>

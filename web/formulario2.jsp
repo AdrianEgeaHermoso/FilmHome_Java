@@ -16,10 +16,10 @@
     <body style="background: url(./images/fondo1.jpg);">
        
         <div class="card border-dark mb-3 position-absolute top-50 start-50 translate-middle" style="max-width: 50rem;">
-            <div class="card-header" style="background-color: #323539; color: white">Introduzca los datos de la nueva película</div>
+            <div class="card-header" style="background-color: #323539; color: white">Introduzca los datos de su nuevo deseo</div>
             <div class="card-body text-dark">
                 <div class="text-center">
-            <form method="get" action="index.jsp">
+            <form method="get" action="altas2.jsp">
                 <div class="mb-3">
                     <label for="id" class="form-label">Id</label>
                     <input type="text" class="form-control" name="id" aria-describedby="id">

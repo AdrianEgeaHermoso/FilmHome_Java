@@ -16,7 +16,7 @@
 
     
 
-    <body style="background: url(./images/fondo1.jpg); padding: 20px; color: white">
+    <body style="background: url(./images/fondo1.jpg); padding: 20px; color: white; text-align: center">
 
 
         <%
@@ -89,7 +89,7 @@
         <table class="table table-dark table-hover" style="margin-bottom: 100px">
             <thead>
                 <tr class="text-center">
-                    <th scope="col">Id</th>
+                    <th scope="col">Id (obligatorio)</th>
                     <th scope="col">Titulo</th>
                     <th scope="col">Genero</th>
                     <th scope="col">Precio</th>
@@ -260,7 +260,7 @@
                     <td><%=listado2.getString("formato")%></td>
                     <td><%=listado2.getString("puntuacion")%></td>
                     <!--<td><a class="btn btn-warning btn-sm"><img src="./images/pencil-fill.svg" alt="x" /><p></p>Editar</a></td>-->
-                    <td><form method="get" action="bajas.jsp">
+                    <td><form method="get" action="bajas2.jsp">
                             <input type="hidden" name="id" value="<%=listado2.getString("id")%>"/>
                             <button type="submit" class="btn btn-danger btn-sm"><img src="./images/trash-fill.svg" alt="x" /><p></p> Eliminar</button>
                         </form></td>
