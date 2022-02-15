@@ -118,42 +118,42 @@
         <div class="grid">
             <div class="row">
                 <div class="col-sm-4">
-                    <h2 style="background-color: #323539;">RECOMENDACIONES</h2>
+                    <h2 style="background-color: #323539;">PRÓXIMOS EVENTOS</h2>
 
                     <div class="row row-cols-1 row-cols-md-2 g-4">
                         <div class="col">
                             <div class="card">
-                                <img src="..." class="card-img-top" alt="...">
+                                <a href="https://www.sundance.org/festivals/sundance-film-festival/about" target="_blank"><img src="./images/sundance.jpg" class="card-img-top" alt="Sundance Festival"></a>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <h5 class="card-title" style="color: black">Festival de Cine Sundance</h5>
+                                    <p class="card-text" style="color: black">Fecha 20/01 - 30/01</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card">
-                                <img src="..." class="card-img-top" alt="...">
+                                <a href="https://festivaldemalaga.com/" target="_blank"><img src="./images/malaga.jpg" class="card-img-top" alt="Festival de Málaga"></a>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <h5 class="card-title" style="color: black">Festival de Málaga</h5>
+                                    <p class="card-text" style="color: black">Fecha 18/03 - 27/03</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card">
-                                <img src="..." class="card-img-top" alt="...">
+                                <a href="https://festivaldemalaga.com/" target="_blank"><img src="..." class="card-img-top" alt="..."></a>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                    <h5 class="card-title" style="color: black">Card title</h5>
+                                    <p class="card-text" style="color: black">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card">
-                                <img src="..." class="card-img-top" alt="...">
+                                <a href="https://festivaldemalaga.com/" target="_blank"><img src="..." class="card-img-top" alt="..."></a>
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <h5 class="card-title" style="color: black">Card title</h5>
+                                    <p class="card-text" style="color: black">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                             </div>
                         </div>
