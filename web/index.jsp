@@ -122,38 +122,38 @@
 
                     <div class="row row-cols-1 row-cols-md-2 g-4">
                         <div class="col">
-                            <div class="card">
+                            <div class="card" style="background-color: #323539;">
                                 <a href="https://www.sundance.org/festivals/sundance-film-festival/about" target="_blank"><img src="./images/sundance.jpg" class="card-img-top" alt="Sundance Festival"></a>
-                                <div class="card-body">
-                                    <h5 class="card-title" style="color: black">Festival de Cine Sundance</h5>
-                                    <p class="card-text" style="color: black">Fecha 20/01 - 30/01</p>
+                                <div class="card-body" >
+                                    <h5 class="card-title">Festival de Cine Sundance</h5>
+                                    <p class="card-text">Fecha 20/01 - 30/01</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card">
                                 <a href="https://festivaldemalaga.com/" target="_blank"><img src="./images/malaga.jpg" class="card-img-top" alt="Festival de Málaga"></a>
-                                <div class="card-body">
-                                    <h5 class="card-title" style="color: black">Festival de Málaga</h5>
-                                    <p class="card-text" style="color: black">Fecha 18/03 - 27/03</p>
+                                <div class="card-body" style="background-color: #323539;">
+                                    <h5 class="card-title">Festival de Málaga</h5>
+                                    <p class="card-text">Fecha 18/03 - 27/03</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card">
-                                <a href="https://festivaldemalaga.com/" target="_blank"><img src="..." class="card-img-top" alt="..."></a>
-                                <div class="card-body">
-                                    <h5 class="card-title" style="color: black">Card title</h5>
-                                    <p class="card-text" style="color: black">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                <a href="https://freakcon.es/?gclid=EAIaIQobChMIqtaLvqKG9gIV1ITVCh01vgCgEAAYASAAEgKcrfD_BwE" target="_blank"><img src="./images/freak.jpg" class="card-img-top" alt="FreakCon"></a>
+                                <div class="card-body" style="background-color: #323539;">
+                                    <h5 class="card-title">FreakCon</h5>
+                                    <p class="card-text">Fecha 05/03 - 06/03</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card">
-                                <a href="https://festivaldemalaga.com/" target="_blank"><img src="..." class="card-img-top" alt="..."></a>
-                                <div class="card-body">
-                                    <h5 class="card-title" style="color: black">Card title</h5>
-                                    <p class="card-text" style="color: black">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <a href="https://www.fantbilbao.eus/" target="_blank"><img src="./images/fantbilbao.jpg" class="card-img-top" alt="FantBilbao"></a>
+                                <div class="card-body" style="background-color: #323539;">
+                                    <h5 class="card-title">Fant Bilbao</h5>
+                                    <p class="card-text">Fecha 24/04 - 30/04</p>
                                 </div>
                             </div>
                         </div>
@@ -187,28 +187,28 @@
                 <div class="col-sm-4">
                     <h2 style="background-color: #323539;">PRÓXIMOS ESTRENOS</h2>
                     <div class="card-group">
-                        <div class="card">
-                            <img src="./images/1.jpg" class="card-img-top" alt="...">
+                        <div class="card" style="background-color: #323539">
+                            <img src="./images/4.jpg" class="card-img-top" alt="Uncharted">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <h5 class="card-title">Uncharted</h5>
+                                <p class="card-text">Fecha de Estreno 11/02</p>
+                                
                             </div>
                         </div>
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
+                        <div class="card" style="background-color: #323539">
+                            <img src="./images/batman.jpg" class="card-img-top" alt="The Batman">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <h5 class="card-title">The Batman</h5>
+                                <p class="card-text">Fecha de Estreno 04/03</p>
+                               
                             </div>
                         </div>
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
+                        <div class="card" style="background-color: #323539">
+                            <img src="./images/morbius.jpg" class="card-img-top" alt="Morbius">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <h5 class="card-title">Morbius</h5>
+                                <p class="card-text">Fecha de Estreno 01/04</p>
+                                
                             </div>
                         </div>
                     </div>
