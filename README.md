@@ -1,6 +1,8 @@
 # FilmHome
 Crud sobre el mundo del cine, y listado para gestionar las películas que un usuario puede tener como colección en su casa.
 
+# VIDEO YOUTUBE EXPLICATIVO
+[![Watch the video](https://youtu.be/9ShoxWGMb0Q)]
 
 # CARD BIENVENIDA
 <img height="400px" width="800px" src="/web/images/1.png">
