@@ -34,3 +34,6 @@ Crud sobre el mundo del cine, y listado para gestionar las películas que un usu
 
 # FOOTER DEL CRUD
 <img height="200px" width="1000px" src="/web/images/9.png">
+
+# VENTANAS DE CONFIRMACIÓN
+<img height="200px" width="400px" src="/web/images/12.png"><img height="200px" width="400px" src="/web/images/11.png"><img height="200px" width="400px" src="/web/images/10.png">
