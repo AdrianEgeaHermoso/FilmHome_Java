@@ -10,12 +10,6 @@ and open the template in the editor.
 
 
 
-.padre{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: green;
-}
 
 h3,h5{
     color: white;

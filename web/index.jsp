@@ -27,7 +27,33 @@
           ResultSet listado = s.executeQuery("SELECT * FROM pelicula");
         %>
 
-        <h2 style="background-color: #323539; margin-bottom: 20px; margin-bottom: 100px">FILMHOME</h2>
+
+
+
+        <h2 style="background-color: #323539; margin-bottom: 100px">FILMHOME</h2>
+
+        <div class="grid">
+            <div class="row">
+                <div class="col-sm-4">
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" style="margin-bottom: 100px;background-color: #323539;">
+                        <img src="./images/loco.jpg" class="card-img-top" alt="bienvenida" style="height: 550px">
+                        <div class="card-body">
+                            <h5 class="card-title">BIENVENIDO/A</h5>
+                            <p class="card-text">Aquí podrás administrar tu colección de películas, próximas incorporaciones a tu colección, y ver recomendaciones y novedades del mundo del cine.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                </div>
+            </div>
+        </div>
+
+
+
+
 
         <div class="text-center" style="margin-bottom: 100px">
 
@@ -166,7 +192,7 @@
                     <h2 style="background-color: #323539;">PRÓXIMOS ESTRENOS</h2>
                     <div class="card-group">
                         <div class="card" style="background-color: #323539">
-                            <img src="./images/4.jpg" class="card-img-top" alt="Uncharted">
+                            <img src="./images/uncharted.jpg" class="card-img-top" alt="Uncharted">
                             <div class="card-body">
                                 <h5 class="card-title">Uncharted</h5>
                                 <p class="card-text">Fecha de Estreno 11/02</p>
@@ -207,43 +233,43 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="./images/1.jpg" class="d-block w-100" alt="...">
+                                <img src="./images/encanto.jpg" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h3>ANIMACION</h3>
-                                    <h5>POCOYO</h5>
-                                    
+                                    <h5>ENCANTO</h5>
+
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./images/2.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h3>CIENCIA-FICCIÓN</h3>
-                                    <h5>Second slide label</h5>
-                                   
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./images/3.jpg" class="d-block w-100" alt="...">
+                                <img src="./images/rednotice.jpg" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h3>COMEDIA</h3>
-                                    <h5>Third slide label</h5>
-                                    
+                                    <h5>RED NOTICE</h5>
+
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./images/2.jpg" class="d-block w-100" alt="...">
+                                <img src="./images/papel.jpg" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h3>CIENCIA-FICCIÓN</h3>
-                                    <h5>Second slide label</h5>
-                                   
+                                    <h3>SERIES</h3>
+                                    <h5>LA CASA DE PAPEL</h5>
+
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./images/2.jpg" class="d-block w-100" alt="...">
+                                <img src="./images/matrix.jpeg" class="d-block w-100" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h3>CIENCIA-FICCIÓN</h3>
-                                    <h5>Second slide label</h5>
-                                   
+                                    <h5>MATRIX RESURRECTIONS</h5>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/siete.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3>WESTERN</h3>
+                                    <h5>LOS 7 MAGNÍFICOS</h5>
+
                                 </div>
                             </div>
                         </div>
@@ -322,6 +348,14 @@
                     </tbody>
 
                 </table>
+
+                <div class="card" style="background-color: #323539">
+                    <div class="card-body">
+                        <h5 class="card-title">AUTOR</h5>
+                        <p class="card-text">Crud Realizado por Adrián Egea Hermoso</p>
+                        
+                    </div>
+                </div>
 
                 </body>
 
