@@ -15,7 +15,7 @@ Crud sobre el mundo del cine, y listado para gestionar las películas que un usu
 <img height="400px" width="800px" src="/web/images/3.png">
 
 # PANEL CON INPUTS PARA MODIFICAR PELÍCULAS DE LA COLECCIÓN
-<img height="400px" width="800px" src="/web/images/4.png">
+<img height="200px" width="1000px" src="/web/images/4.png">
 
 # GRID CON CARDS DE PRÓXIMOS EVENTOS Y PRÓXIMOS ESTRENOS
 <img height="400px" width="800px" src="/web/images/5.png">
