@@ -16,3 +16,11 @@ and open the template in the editor.
     align-items: center;
     background-color: green;
 }
+
+h3,h5{
+    color: white;
+    background-color: #323539;
+    
+}
+
+h2{width: 50%; margin-left: 25%;background-color: #323539;margin-top: 100px;}
