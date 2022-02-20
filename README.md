@@ -36,7 +36,7 @@ Crud sobre el mundo del cine, y listado para gestionar las películas que un usu
 <img height="200px" width="1000px" src="/web/images/9.png">
 
 # VENTANAS DE CONFIRMACIÓN TABLA MI COLECCIÓN
-<img height="200px" width="300px" src="/web/images/12.png"><img height="200px" width="300px" src="/web/images/11.png"><img height="200px" width="300px" src="/web/images/10.png">
+<img height="200px" width="350px" src="/web/images/12.png"><img height="200px" width="350px" src="/web/images/11.png"><img height="200px" width="350px" src="/web/images/10.png">
 
 # VENTANAS DE CONFIRMACIÓN TABLA DESEOS
 <img height="200px" width="400px" src="/web/images/13.png"><img height="200px" width="400px" src="/web/images/14.png">
