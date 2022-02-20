@@ -353,7 +353,7 @@
                     <div class="card-body">
                         <h5 class="card-title">AUTOR</h5>
                         <p class="card-text">Crud Realizado por Adrián Egea Hermoso</p>
-                        
+
                     </div>
                 </div>
 
