@@ -9,7 +9,7 @@ Crud sobre el mundo del cine, y listado para gestionar las películas que un usu
 <img height="200px" width="1000px" src="/web/images/2.png">
 
 # FORMULARIO ALTA PELÍCULAS
-<img height="800px" width="400px" src="/web/images/15.png">
+<img height="600px" width="400px" src="/web/images/15.png">
 
 # TABLA COLECCIÓN PELÍCULAS
 <img height="400px" width="800px" src="/web/images/3.png">
@@ -27,7 +27,7 @@ Crud sobre el mundo del cine, y listado para gestionar las películas que un usu
 <img height="200px" width="1000px" src="/web/images/7.png">
 
 # FORMULARIO ALTA DESEOS
-<img height="400px" width="800px" src="/web/images/16.png">
+<img height="600px" width="400px" src="/web/images/16.png">
 
 # TABLA DESEOS, BOTÓN DE ELIMINAR DE LA LISTA
 <img height="400px" width="800px" src="/web/images/8.png">
