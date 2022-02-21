@@ -20,7 +20,7 @@ Crud sobre el mundo del cine, y listado para gestionar las películas que un usu
 # PANEL CON INPUTS PARA MODIFICAR PELÍCULAS DE LA COLECCIÓN
 <img height="200px" width="1000px" src="/web/images/4.png">
 
-# GRID CON CARDS DE PRÓXIMOS EVENTOS Y PRÓXIMOS ESTRENOS
+# CARDS DE PRÓXIMOS EVENTOS Y PRÓXIMOS ESTRENOS
 <img height="400px" width="800px" src="/web/images/5.png">
 
 # CARRUSEL DE IMÁGENES COMO RECOMENDACIONES DE LA SEMANA
@@ -33,7 +33,7 @@ Crud sobre el mundo del cine, y listado para gestionar las películas que un usu
 <img height="600px" width="400px" src="/web/images/16.png">
 
 # TABLA DESEOS
-<img height="400px" width="1000px" src="/web/images/8.png">
+<img height="200px" width="1000px" src="/web/images/8.png">
 
 # FOOTER DEL CRUD
 <img height="200px" width="1000px" src="/web/images/9.png">
