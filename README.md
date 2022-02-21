@@ -1,4 +1,4 @@
-# FilmHome :film_projector:
+# FilmHome :clapper:
 :film_strip: Crud sobre el mundo del cine, y listado para gestionar las películas que un usuario puede tener como colección en su casa. :film_projector:
 
 # VIDEO YOUTUBE EXPLICATIVO :film_strip:
@@ -8,16 +8,16 @@
 # CARD BIENVENIDA :film_projector:
 <img height="400px" width="800px" src="/web/images/1.png">
 
-# BOTÓN FORMULARIO ALTAS PELÍCULAS :film_strip:
+# BOTÓN FORMULARIO ALTAS PELÍCULAS :clapper:
 <img height="200px" width="1000px" src="/web/images/2.png">
 
-# FORMULARIO ALTA PELÍCULAS :film_projector:
+# FORMULARIO ALTA PELÍCULAS :film_strip:
 <img height="600px" width="400px" src="/web/images/15.png">
 
-# TABLA COLECCIÓN PELÍCULAS :film_strip:
+# TABLA COLECCIÓN PELÍCULAS :film_projector:
 <img height="400px" width="1000px" src="/web/images/3.png">
 
-# PANEL CON INPUTS PARA MODIFICAR PELÍCULAS DE LA COLECCIÓN :film_projector:
+# PANEL CON INPUTS PARA MODIFICAR PELÍCULAS DE LA COLECCIÓN :clapper:
 <img height="200px" width="1000px" src="/web/images/4.png">
 
 # CARDS DE PRÓXIMOS EVENTOS Y PRÓXIMOS ESTRENOS :film_strip:
@@ -26,16 +26,16 @@
 # CARRUSEL DE IMÁGENES COMO RECOMENDACIONES DE LA SEMANA :film_projector:
 <img height="400px" width="800px" src="/web/images/6.png">
 
-# BOTÓN FORMULARIO ALTAS DESEOS :film_strip:
+# BOTÓN FORMULARIO ALTAS DESEOS :clapper:
 <img height="200px" width="1000px" src="/web/images/7.png">
 
-# FORMULARIO ALTA DESEOS :film_projector:
+# FORMULARIO ALTA DESEOS :film_strip:
 <img height="600px" width="400px" src="/web/images/16.png">
 
-# TABLA DESEOS :film_strip:
+# TABLA DESEOS :film_projector:
 <img height="200px" width="1000px" src="/web/images/8.png">
 
-# FOOTER DEL CRUD :film_projector:
+# FOOTER DEL CRUD :clapper:
 <img height="200px" width="1000px" src="/web/images/9.png">
 
 # VENTANAS DE CONFIRMACIÓN TABLA MI COLECCIÓN :film_strip:
