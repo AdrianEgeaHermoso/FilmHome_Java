@@ -35,7 +35,7 @@
 # TABLA DESEOS :film_projector:
 <img height="200px" width="1000px" src="/web/images/8.png">
 
-# FOOTER DEL CRUD :clapper:
+# FOOTER :clapper:
 <img height="200px" width="1000px" src="/web/images/9.png">
 
 # VENTANAS DE CONFIRMACIÓN TABLA MI COLECCIÓN :film_strip:
