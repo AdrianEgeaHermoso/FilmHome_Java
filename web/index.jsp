@@ -42,7 +42,7 @@
                         <div class="card-body">
                             <h5 class="card-title">BIENVENIDO/A</h5>
                             <p class="card-text">Aquí podrás administrar tu colección de películas, próximas incorporaciones a tu colección, y ver recomendaciones y novedades del mundo del cine.</p>
-
+                            <a href="logout.jsp">Salir</a>
                         </div>
                     </div>
                 </div>
