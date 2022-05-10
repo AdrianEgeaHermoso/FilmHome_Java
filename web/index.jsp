@@ -17,6 +17,13 @@
 
 
     <body style="background: url(./images/fondo1.jpg); padding: 20px; color: white; text-align: center">
+        
+        <%
+          if (session.getAttribute("usuario") == null) {
+            session.setAttribute("error", "Debe iniciar sesión para acceder a la página de perfil.");
+            response.sendRedirect("formulario-login.jsp");
+          }
+        %>
 
 
         <%

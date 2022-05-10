@@ -21,6 +21,9 @@
           if (usuario.equals("pepe") && contrasena.equals("1234")) {
             session.setAttribute("usuario", usuario);
             response.sendRedirect("bienvenida.jsp");
+          } else if (usuario.equals("adri") && contrasena.equals("123456")) {
+            session.setAttribute("usuario", usuario);
+            response.sendRedirect("bienvenida.jsp");
           } else {
             session.setAttribute("error", "Usuario o contraseña incorrecto");
             response.sendRedirect("formulario-login.jsp");
