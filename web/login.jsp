@@ -18,11 +18,18 @@
         <%
           String usuario = request.getParameter("usuario");
           String contrasena = request.getParameter("contrasena");
+          
           if (usuario.equals("pepe") && contrasena.equals("1234")) {
             session.setAttribute("usuario", usuario);
+            session.setAttribute("contrasena", contrasena);
             response.sendRedirect("bienvenida.jsp");
           } else if (usuario.equals("adri") && contrasena.equals("123456")) {
             session.setAttribute("usuario", usuario);
+            session.setAttribute("contrasena", contrasena);
+            response.sendRedirect("bienvenida.jsp");
+          } else if (usuario.equals("admin") && contrasena.equals("admin")) {
+            session.setAttribute("usuario", usuario);
+            session.setAttribute("contrasena", contrasena);
             response.sendRedirect("bienvenida.jsp");
           } else {
             session.setAttribute("error", "Usuario o contraseña incorrecto");
