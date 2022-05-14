@@ -25,20 +25,31 @@
                     Usuario: <%= session.getAttribute("usuario")%><br>
 
                     Contraseña: <%= session.getAttribute("contrasena")%><br>
-
-
+                    
                     <%
                       if (session.getAttribute("usuario").equals("admin")) {
                     %>
-                    <a href="index.jsp">Pagina principal</a>
+                    Visitas: <%= session.getAttribute("n")%><br>
                     <%
                     } else {
                     %>
-                    <a href="index2.jsp">Página principal</a>
+                    
 
                     <%
                       }
                     %>
+                    
+                    
+
+                    <a href="index.jsp">Página principal</a>
+
+                    <%
+                      session.setAttribute(
+                              "n",
+                              session.getAttribute("n") == null ? 1 : (Integer) session.getAttribute("n") + 1
+                      );
+                    %>
+                   
 
                 </td>
             </tr>

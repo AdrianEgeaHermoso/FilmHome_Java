@@ -63,9 +63,22 @@
 
 
         <div class="text-center" style="margin-bottom: 100px">
-
-            <a class="btn btn-primary btn-lg" style="background-color: #323539" href="formulario.jsp"><img src="./images/cloud-plus-fill.svg" alt="x" width="50px" height="60px"/> Alta de Películas</a>
+            
+            <%
+                      if (session.getAttribute("usuario").equals("admin")) {
+                    %>
+                    <a class="btn btn-primary btn-lg" style="background-color: #323539" href="formulario.jsp"><img src="./images/cloud-plus-fill.svg" alt="x" width="50px" height="60px"/> Alta de Películas</a>
             <br>
+                    <%
+                    } else {
+                    %>
+                    
+
+                    <%
+                      }
+                    %>
+
+            
         </div>
 
 
@@ -80,7 +93,19 @@
                     <th scope="col">Precio</th>
                     <th scope="col">Formato</th>
                     <th scope="col">Puntuación</th>
+                    <%
+                      if (session.getAttribute("usuario").equals("admin")) {
+                    %>
                     <th scope="col">Eliminar</th>
+                    <%
+                    } else {
+                    %>
+                    <th scope="col">Otro</th>
+
+                    <%
+                      }
+                    %>
+                    
                 </tr>
             </thead>
             <tbody>
