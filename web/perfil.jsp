@@ -13,6 +13,8 @@
             session.setAttribute("error", "Debe iniciar sesión para acceder a la página de perfil.");
             response.sendRedirect("formulario-login.jsp");
           }
+
+
         %>
         <h1>Perfil de usuario</h1>
         <table>
@@ -23,8 +25,20 @@
                     Usuario: <%= session.getAttribute("usuario")%><br>
 
                     Contraseña: <%= session.getAttribute("contrasena")%><br>
-                   
-                    <a href="index.jsp">Página principal</a>
+
+
+                    <%
+                      if (session.getAttribute("usuario").equals("admin")) {
+                    %>
+                    <a href="index.jsp">Pagina principal</a>
+                    <%
+                    } else {
+                    %>
+                    <a href="index2.jsp">Página principal</a>
+
+                    <%
+                      }
+                    %>
 
                 </td>
             </tr>

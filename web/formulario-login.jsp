@@ -12,6 +12,11 @@
           if (session.getAttribute("usuario") != null) {
             response.sendRedirect("index.jsp");
           }
+          
+          //if ((session.getAttribute("usuario") != "admin") && (session.getAttribute("usuario") != null)) {
+           // response.sendRedirect("index2.jsp");
+          //}
+          
         %>
 
         <div class="grid">
