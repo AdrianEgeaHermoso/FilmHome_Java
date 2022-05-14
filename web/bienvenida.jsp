@@ -21,7 +21,7 @@
                         <img src="./images/loco.jpg" class="card-img-top" alt="bienvenida" style="height: 550px">
                         <div class="card-body">
                             <h5 class="card-title">BIENVENIDO/A</h5>
-                            <p class="card-text">Aquí podrás administrar tu colección de películas, próximas incorporaciones a tu colección, y ver recomendaciones y novedades del mundo del cine.</p>
+                            <p class="card-text">Mi nombre es Adrián Egea y este es mi sitio web dedicado al cine, donde podrás ver diferentes películas que voy viendo y puntuando, además de recomendaciones, estrenos, festivales y novedades del mundo del cine.</p>
                             <%
                               if (session.getAttribute("usuario") == null) {
                             %>

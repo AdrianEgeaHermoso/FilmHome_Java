@@ -82,7 +82,7 @@
         </div>
 
 
-        <h2 style="background-color: #323539;">MI COLECCIÓN</h2>
+        <h2 style="background-color: #323539;">PELÍCULAS VISTAS</h2>
 
         <table class="table table-dark table-hover" style="margin-bottom: 100px">
             <thead>
@@ -328,13 +328,26 @@
 
 
                 <div class="text-center" style="margin-bottom: 100px; margin-top: 100px">
-
+                    
+                    <%
+                      if (session.getAttribute("usuario").equals("admin")) {
+                    %>
                     <a class="btn btn-primary btn-lg" style="background-color: #323539" href="formulario2.jsp"><img src="./images/cloud-plus-fill.svg" alt="x" width="50px" height="60px"/> Alta de Deseos</a>
                     <br>
+                    <%
+                    } else {
+                    %>
+                    
+
+                    <%
+                      }
+                    %>
+
+                    
                 </div>
 
 
-                <h2 style="width: 50%; margin-left: 25%;background-color: #323539;margin-top: 100px;">LISTA DE DESEOS</h2>
+                <h2 style="width: 50%; margin-left: 25%;background-color: #323539;margin-top: 100px;">PRÓXIMAS VISIONES</h2>
 
                 <table class="table table-dark table-hover" style="margin-bottom: 100px">
                     <thead>
@@ -342,9 +355,6 @@
                             <th scope="col">Id</th>
                             <th scope="col">Titulo</th>
                             <th scope="col">Genero</th>
-                            <th scope="col">Precio</th>
-                            <th scope="col">Formato</th>
-                            <th scope="col">Puntuación</th>
                             <th scope="col">Eliminar</th>
                         </tr>
                     </thead>
@@ -357,9 +367,7 @@
                             <td><%=listado2.getString("id")%></td>
                             <td><%=listado2.getString("titulo")%></td>
                             <td><%=listado2.getString("genero")%></td>
-                            <td><%=listado2.getString("precio")%></td>
-                            <td><%=listado2.getString("formato")%></td>
-                            <td><%=listado2.getString("puntuacion")%></td>
+                            
                             <!--<td><a class="btn btn-warning btn-sm"><img src="./images/pencil-fill.svg" alt="x" /><p></p>Editar</a></td>-->
                             <td><form method="get" action="bajas2.jsp">
                                     <input type="hidden" name="id" value="<%=listado2.getString("id")%>"/>
