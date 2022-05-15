@@ -364,7 +364,7 @@
                     <%
                       if (session.getAttribute("usuario").equals("admin")) {
                     %>
-                    <a class="btn btn-primary btn-lg" style="background-color: #323539" href="formulario2.jsp"><img src="./images/cloud-plus-fill.svg" alt="x" width="50px" height="60px"/> Alta de Visiones</a>
+                    <a class="btn btn-primary btn-lg" style="background-color: #323539" href="formulario2.jsp"><img src="./images/cloud-plus-fill.svg" alt="x" width="50px" height="60px"/> Alta de Próximas</a>
                     <br>
                     <%
                     } else {

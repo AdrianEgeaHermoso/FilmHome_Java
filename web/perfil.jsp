@@ -30,6 +30,13 @@
                             <h5 class="card-title">Usuario: <%= session.getAttribute("usuario")%><br></h5>
                             <p class="card-text">Contraseña: <%= session.getAttribute("contrasena")%><br></p>
                             <a href="index.jsp">Página principal</a>
+                            <div style="color: red;">
+                                <p>
+                                    <%=session.getAttribute("erroradmin") == null
+                        ? "" : session.getAttribute("erroradmin")%>
+                                    <% session.removeAttribute("erroradmin");%>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -51,13 +58,7 @@
 
 
 
-        <div style="color: red;">
-            <p>
-                <%=session.getAttribute("erroradmin") == null
-                                            ? "" : session.getAttribute("erroradmin")%>
-                <% session.removeAttribute("erroradmin");%>
-            </p>
-        </div>
+
 
 
 
