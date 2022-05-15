@@ -17,17 +17,18 @@
 
 
     <body style="background: url(./images/fondo1.jpg); padding: 20px; color: white; text-align: center">
-        
+
         <%
           if (session.getAttribute("usuario") == null) {
             session.setAttribute("error", "Debe iniciar sesión para acceder a la página de perfil.");
             response.sendRedirect("formulario-login.jsp");
           }
+
+
         %>
 
 
-        <%
-          Class.forName("com.mysql.jdbc.Driver");
+        <%          Class.forName("com.mysql.jdbc.Driver");
           Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3308/youtube?useSSL=false&allowPublicKeyRetrieval=true", "root", "root");
           Statement s = conexion.createStatement();
 
@@ -47,9 +48,23 @@
                     <div class="card" style="margin-bottom: 100px;background-color: #323539;">
                         <img src="./images/loco.jpg" class="card-img-top" alt="bienvenida" style="height: 550px">
                         <div class="card-body">
-                            <h5 class="card-title">BIENVENIDO/A</h5>
-                            <p class="card-text">Aquí podrás administrar tu colección de películas, próximas incorporaciones a tu colección, y ver recomendaciones y novedades del mundo del cine.</p>
-                            <a href="logout.jsp">Salir</a>
+                            <h3 class="card-title">Hola <%= session.getAttribute("usuario")%> disfruta del contenido.</h3>
+
+                            <h4>Perfil: <a href="perfil.jsp">Acceso</a></h4>
+                            <p> </p>
+                            <h4>Salida del sitio: <a href="logout.jsp">Salir</a></h4>
+                            <%
+                              if (session.getAttribute("usuario").equals("admin")) {
+                            %>
+                            <h1>Visitas: <%= session.getAttribute("n")%></h1>
+                            <%
+                            } else {
+                            %>
+
+
+                            <%
+                              }
+                            %>
                         </div>
                     </div>
                 </div>
@@ -63,22 +78,22 @@
 
 
         <div class="text-center" style="margin-bottom: 100px">
-            
+
             <%
-                      if (session.getAttribute("usuario").equals("admin")) {
-                    %>
-                    <a class="btn btn-primary btn-lg" style="background-color: #323539" href="formulario.jsp"><img src="./images/cloud-plus-fill.svg" alt="x" width="50px" height="60px"/> Alta de Películas</a>
+              if (session.getAttribute("usuario").equals("admin")) {
+            %>
+            <a class="btn btn-primary btn-lg" style="background-color: #323539" href="formulario.jsp"><img src="./images/cloud-plus-fill.svg" alt="x" width="50px" height="60px"/> Alta de Películas</a>
             <br>
-                    <%
-                    } else {
-                    %>
-                    
+            <%
+            } else {
+            %>
 
-                    <%
-                      }
-                    %>
 
-            
+            <%
+              }
+            %>
+
+
         </div>
 
 
@@ -90,22 +105,20 @@
                     <th scope="col">Id</th>
                     <th scope="col">Titulo</th>
                     <th scope="col">Genero</th>
-                    <th scope="col">Precio</th>
-                    <th scope="col">Formato</th>
                     <th scope="col">Puntuación</th>
-                    <%
-                      if (session.getAttribute("usuario").equals("admin")) {
-                    %>
+                        <%
+                          if (session.getAttribute("usuario").equals("admin")) {
+                        %>
                     <th scope="col">Eliminar</th>
-                    <%
-                    } else {
-                    %>
-                    <th scope="col">Otro</th>
+                        <%
+                        } else {
+                        %>
+
 
                     <%
                       }
                     %>
-                    
+
                 </tr>
             </thead>
             <tbody>
@@ -117,14 +130,23 @@
                     <td><%=listado.getString("id")%></td>
                     <td><%=listado.getString("titulo")%></td>
                     <td><%=listado.getString("genero")%></td>
-                    <td><%=listado.getString("precio")%></td>
-                    <td><%=listado.getString("formato")%></td>
                     <td><%=listado.getString("puntuacion")%></td>
-                    <!--<td><a class="btn btn-warning btn-sm"><img src="./images/pencil-fill.svg" alt="x" /><p></p>Editar</a></td>-->
+                    <%
+                      if (session.getAttribute("usuario").equals("admin")) {
+                    %>
                     <td><form method="get" action="bajas.jsp">
                             <input type="hidden" name="id" value="<%=listado.getString("id")%>"/>
                             <button type="submit" class="btn btn-danger btn-sm"><img src="./images/trash-fill.svg" alt="x" /><p></p> Eliminar</button>
                         </form></td>
+                        <%
+                        } else {
+                        %>
+
+
+                    <%
+                      }
+                    %>
+
 
                 </tr>
 
@@ -141,7 +163,11 @@
 
         </table>
 
-        <h2 style="background-color: #323539;">ACTUALIZA TU COLECCIÓN</h2>
+
+        <%
+          if (session.getAttribute("usuario").equals("admin")) {
+        %>
+        <h2 style="background-color: #323539;">ACTUALIZACIONES</h2>
 
 
         <table class="table table-dark table-hover" style="margin-bottom: 100px">
@@ -150,8 +176,6 @@
                     <th scope="col">Id (obligatorio)</th>
                     <th scope="col">Titulo</th>
                     <th scope="col">Genero</th>
-                    <th scope="col">Precio</th>
-                    <th scope="col">Formato</th>
                     <th scope="col">Puntuación</th>
                     <th scope="col">Modificar</th>
                 </tr>
@@ -160,13 +184,21 @@
                 <tr><td><input type="text" name="id"></td>
                     <td><input type="text" name="titulo"></td>
                     <td><input type="text" name="genero"></td>
-                    <td><input type="text" name="precio"></td>
-                    <td><input type="text" name="formato"></td>
                     <td><input type="text" name="puntuacion"></td>
                     <td><button type="submit" value="Añadir" class="btn btn-warning btn-sm"><img src="./images/pencil-fill.svg" alt="x" /><p></p>Modificar</button></td></tr>           
             </form>
 
         </table>
+        <%
+        } else {
+        %>
+
+
+        <%
+          }
+        %>
+
+
 
 
 
@@ -328,22 +360,22 @@
 
 
                 <div class="text-center" style="margin-bottom: 100px; margin-top: 100px">
-                    
+
                     <%
                       if (session.getAttribute("usuario").equals("admin")) {
                     %>
-                    <a class="btn btn-primary btn-lg" style="background-color: #323539" href="formulario2.jsp"><img src="./images/cloud-plus-fill.svg" alt="x" width="50px" height="60px"/> Alta de Deseos</a>
+                    <a class="btn btn-primary btn-lg" style="background-color: #323539" href="formulario2.jsp"><img src="./images/cloud-plus-fill.svg" alt="x" width="50px" height="60px"/> Alta de Visiones</a>
                     <br>
                     <%
                     } else {
                     %>
-                    
+
 
                     <%
                       }
                     %>
 
-                    
+
                 </div>
 
 
@@ -355,7 +387,19 @@
                             <th scope="col">Id</th>
                             <th scope="col">Titulo</th>
                             <th scope="col">Genero</th>
+                                <%
+                                  if (session.getAttribute("usuario").equals("admin")) {
+                                %>
                             <th scope="col">Eliminar</th>
+                                <%
+                                } else {
+                                %>
+
+
+                            <%
+                              }
+                            %>
+
                         </tr>
                     </thead>
                     <tbody>
@@ -367,12 +411,23 @@
                             <td><%=listado2.getString("id")%></td>
                             <td><%=listado2.getString("titulo")%></td>
                             <td><%=listado2.getString("genero")%></td>
-                            
-                            <!--<td><a class="btn btn-warning btn-sm"><img src="./images/pencil-fill.svg" alt="x" /><p></p>Editar</a></td>-->
+
+                            <%
+                              if (session.getAttribute("usuario").equals("admin")) {
+                            %>
                             <td><form method="get" action="bajas2.jsp">
                                     <input type="hidden" name="id" value="<%=listado2.getString("id")%>"/>
                                     <button type="submit" class="btn btn-danger btn-sm"><img src="./images/trash-fill.svg" alt="x" /><p></p> Eliminar</button>
                                 </form></td>
+                                <%
+                                } else {
+                                %>
+
+
+                            <%
+                              }
+                            %>
+
 
                         </tr>
 

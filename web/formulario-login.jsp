@@ -10,13 +10,8 @@
     <body style="background: url(./images/fondo1.jpg); padding: 20px; color: white; text-align: center">
         <%
           if (session.getAttribute("usuario") != null) {
-            response.sendRedirect("index.jsp");
+            response.sendRedirect("bienvenida.jsp");
           }
-          
-          //if ((session.getAttribute("usuario") != "admin") && (session.getAttribute("usuario") != null)) {
-           // response.sendRedirect("index2.jsp");
-          //}
-          
         %>
 
         <div class="grid">
@@ -30,9 +25,9 @@
                             <h5 class="card-title">INICIO DE SESIÓN</h5>
                             <p class="card-text">Introduzca sus datos de usuario y contraseña para acceder</p>
                             <form action="login.jsp">
-                                Usuario: <input type="text" name="usuario"><br>
+                                Usuario : <input type="text" name="usuario"><br>
                                 <br>
-                                Contraseña: <input type="password" name="contrasena"><br>
+                                Contraseña : <input type="password" name="contrasena"><br>
                                 <br>
                                 <input type="submit" value="Enviar">
                             </form>

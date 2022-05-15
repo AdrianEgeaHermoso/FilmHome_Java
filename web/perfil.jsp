@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="newcss.css"/>
         <title>Perfil de usuario</title>
     </head>
-    <body>
+    <body style="background: url(./images/fondo1.jpg); padding: 20px; color: white; text-align: center">
         <%
           if (session.getAttribute("usuario") == null) {
             session.setAttribute("error", "Debe iniciar sesión para acceder a la página de perfil.");
@@ -17,42 +17,50 @@
 
         %>
         <h1>Perfil de usuario</h1>
-        <table>
-            <tr>
-                <td>
-                    <img src="user.png"></td>
-                <td>
-                    Usuario: <%= session.getAttribute("usuario")%><br>
 
-                    Contraseña: <%= session.getAttribute("contrasena")%><br>
-                    
-                    <%
-                      if (session.getAttribute("usuario").equals("admin")) {
-                    %>
-                    Visitas: <%= session.getAttribute("n")%><br>
-                    <%
-                    } else {
-                    %>
-                    
 
-                    <%
-                      }
-                    %>
-                    
-                    
+        <div class="grid">
+            <div class="row">
+                <div class="col-sm-4">
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" style="margin-bottom: 100px;background-color: #323539;">
+                        <img src="./images/person-workspace.svg" class="card-img-top" alt="bienvenida" style="height: 550px">
+                        <div class="card-body">
+                            <h5 class="card-title">Usuario: <%= session.getAttribute("usuario")%><br></h5>
+                            <p class="card-text">Contraseña: <%= session.getAttribute("contrasena")%><br></p>
+                            <a href="index.jsp">Página principal</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                </div>
+            </div>
+        </div>
 
-                    <a href="index.jsp">Página principal</a>
+        <%
+          session.setAttribute(
+                  "n",
+                  session.getAttribute("n") == null ? 1 : (Integer) session.getAttribute("n") + 1
+          );
+        %>
 
-                    <%
-                      session.setAttribute(
-                              "n",
-                              session.getAttribute("n") == null ? 1 : (Integer) session.getAttribute("n") + 1
-                      );
-                    %>
-                   
 
-                </td>
-            </tr>
-        </table>
+
+
+
+
+
+        <div style="color: red;">
+            <p>
+                <%=session.getAttribute("erroradmin") == null
+                                            ? "" : session.getAttribute("erroradmin")%>
+                <% session.removeAttribute("erroradmin");%>
+            </p>
+        </div>
+
+
+
+
     </body>
 </html>

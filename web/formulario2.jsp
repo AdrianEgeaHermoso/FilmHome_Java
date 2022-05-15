@@ -14,6 +14,16 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     </head>
     <body style="background: url(./images/fondo1.jpg);">
+        
+        <%
+          if (!session.getAttribute("usuario").equals("admin")) {
+            session.setAttribute("erroradmin", "Debe ser administrador del sitio para acceder a esta página.");
+            response.sendRedirect("perfil.jsp");
+          }
+          
+
+
+        %>
        
         <div class="card border-dark mb-3 position-absolute top-50 start-50 translate-middle" style="max-width: 50rem;">
             <div class="card-header" style="background-color: #323539; color: white">Introduzca los datos de su nuevo deseo</div>
@@ -31,18 +41,6 @@
                 <div class="mb-3">
                     <label for="genero" class="form-label">Genero</label>
                     <input type="text" class="form-control" name="genero" aria-describedby="genero">
-                </div>
-                <div class="mb-3">
-                    <label for="precio" class="form-label">Precio</label>
-                    <input type="text" class="form-control" name="precio" aria-describedby="precio">
-                </div>
-                <div class="mb-3">
-                    <label for="formato" class="form-label">Formato</label>
-                    <input type="text" class="form-control" name="formato" aria-describedby="formato">
-                </div>
-                <div class="mb-3">
-                    <label for="puntuacion" class="form-label">Puntuacion</label>
-                    <input type="text" class="form-control" name="puntuacion" aria-describedby="puntuacion">
                 </div>
                 <button type="submit" class="btn btn-primary">Aceptar</button>
             </form>
