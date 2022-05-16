@@ -41,6 +41,11 @@
 # LISTADO DE PRÓXIMOS VISIONADOS DE PELÍCULAS :clapper:
 <img height="200px" width="1000px" src="/web/images/Screenshot_10.png">
 
+# FOOTER :clapper:
+<img height="200px" width="1000px" src="/web/images/9.png">
+
+# A PARTIR DE LAS SIGUIENTES IMÁGENES ES CONTENIDO EN EL SITIO WEB QUE SOLO PUEDE VISUALIZAR E INTERACTUAR EL ADMINISTRADOR
+
 # ACCESO A CONTENIDO PARA EL ADMINISTRADOR CON CONTADOR DE VISITAS Y POSIBILIDAD DE MODIFICAR CONTENIDO DEL SITIO :clapper:
 <img height="600px" width="600px" src="/web/images/Screenshot_11.png">
 
@@ -64,9 +69,6 @@
 
 # LISTADO DE PRÓXIMAS PELÍCULAS QUE VERÉ Y PUNTUARÉ :clapper:
 <img height="200px" width="1000px" src="/web/images/Screenshot_16.png">
-
-# FOOTER :clapper:
-<img height="200px" width="1000px" src="/web/images/9.png">
 
 # VENTANAS DE CONFIRMACIÓN TABLA MI COLECCIÓN :film_strip:
 <img height="200px" width="330px" src="/web/images/12.png"><img height="200px" width="330px" src="/web/images/11.png"><img height="200px" width="330px" src="/web/images/10.png">
