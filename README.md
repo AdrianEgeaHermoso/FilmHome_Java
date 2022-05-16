@@ -32,6 +32,12 @@
 # LISTADO DE PELÍCULAS VISTAS Y PUNTUADAS :clapper:
 <img height="200px" width="1000px" src="/web/images/Screenshot_8.png">
 
+# CARDS DE PRÓXIMOS EVENTOS Y PRÓXIMOS ESTRENOS :film_strip:
+<img height="400px" width="800px" src="/web/images/5.png">
+
+# CARRUSEL DE IMÁGENES COMO RECOMENDACIONES DE LA SEMANA :film_projector:
+<img height="400px" width="800px" src="/web/images/6.png">
+
 # LISTADO DE PRÓXIMOS VISIONADOS DE PELÍCULAS :clapper:
 <img height="200px" width="1000px" src="/web/images/Screenshot_10.png">
 
@@ -49,12 +55,6 @@
 
 # PANEL CON INPUTS PARA MODIFICAR EL LISTADO DE PELÍCULAS VISTAS :clapper:
 <img height="200px" width="1000px" src="/web/images/Screenshot_13.png">
-
-# CARDS DE PRÓXIMOS EVENTOS Y PRÓXIMOS ESTRENOS :film_strip:
-<img height="400px" width="800px" src="/web/images/5.png">
-
-# CARRUSEL DE IMÁGENES COMO RECOMENDACIONES DE LA SEMANA :film_projector:
-<img height="400px" width="800px" src="/web/images/6.png">
 
 # BOTÓN FORMULARIO ALTAS PRÓXIMOS VISIONADOS :clapper:
 <img height="200px" width="1000px" src="/web/images/Screenshot_15.png">
