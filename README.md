@@ -70,8 +70,8 @@
 # LISTADO DE PRÓXIMAS PELÍCULAS QUE VERÉ Y PUNTUARÉ :clapper:
 <img height="200px" width="1000px" src="/web/images/Screenshot_16.png">
 
-# VENTANAS DE CONFIRMACIÓN TABLA MI COLECCIÓN :film_strip:
+# VENTANAS DE CONFIRMACIÓN LISTADO PELÍCULAS VISTAS Y PUNTUADAS :film_strip:
 <img height="200px" width="330px" src="/web/images/12.png"><img height="200px" width="330px" src="/web/images/11.png"><img height="200px" width="330px" src="/web/images/10.png">
 
-# VENTANAS DE CONFIRMACIÓN TABLA DESEOS :film_projector:
+# VENTANAS DE CONFIRMACIÓN LISTADO PRÓXIMOS VISIONADOS :film_projector:
 <img height="200px" width="400px" src="/web/images/13.png"><img height="200px" width="400px" src="/web/images/14.png">
