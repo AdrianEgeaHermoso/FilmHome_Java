@@ -29,17 +29,26 @@
 # ACCESO A CONTENIDO PARA USUARIOS CON PERFIL CREADO :clapper:
 <img height="600px" width="600px" src="/web/images/Screenshot_7.png">
 
+# LISTADO DE PELÍCULAS VISTAS Y PUNTUADAS :clapper:
+<img height="600px" width="600px" src="/web/images/Screenshot_8.png">
+
+# LISTADO DE PRÓXIMOS VISIONADOS DE PELÍCULAS :clapper:
+<img height="600px" width="600px" src="/web/images/Screenshot_10.png">
+
+# ACCESO A CONTENIDO PARA EL ADMINISTRADOR CON CONTADOR DE VISITAS Y POSIBILIDAD DE MODIFICAR CONTENIDO DEL SITIO :clapper:
+<img height="600px" width="600px" src="/web/images/Screenshot_11.png">
+
 # BOTÓN FORMULARIO ALTAS PELÍCULAS :clapper:
 <img height="200px" width="1000px" src="/web/images/2.png">
 
-# FORMULARIO ALTA PELÍCULAS :film_strip:
-<img height="600px" width="400px" src="/web/images/15.png">
+# FORMULARIO ALTA PELÍCULAS :clapper:
+<img height="600px" width="600px" src="/web/images/Screenshot_14.png">
 
-# TABLA COLECCIÓN PELÍCULAS :film_projector:
-<img height="400px" width="1000px" src="/web/images/3.png">
+# LISTADO DE PELÍCULAS VISTAS Y PUNTUADAS CON POSIBILIDAD DE ELIMINAR :clapper:
+<img height="600px" width="600px" src="/web/images/Screenshot_12.png">
 
-# PANEL CON INPUTS PARA MODIFICAR PELÍCULAS DE LA COLECCIÓN :clapper:
-<img height="200px" width="1000px" src="/web/images/4.png">
+# PANEL CON INPUTS PARA MODIFICAR EL LISTADO DE PELÍCULAS VISTAS :clapper:
+<img height="600px" width="600px" src="/web/images/Screenshot_13.png">
 
 # CARDS DE PRÓXIMOS EVENTOS Y PRÓXIMOS ESTRENOS :film_strip:
 <img height="400px" width="800px" src="/web/images/5.png">
@@ -47,14 +56,14 @@
 # CARRUSEL DE IMÁGENES COMO RECOMENDACIONES DE LA SEMANA :film_projector:
 <img height="400px" width="800px" src="/web/images/6.png">
 
-# BOTÓN FORMULARIO ALTAS DESEOS :clapper:
-<img height="200px" width="1000px" src="/web/images/7.png">
+# BOTÓN FORMULARIO ALTAS PRÓXIMOS VISIONADOS :clapper:
+<img height="200px" width="1000px" src="/web/images/Screenshot_15.png">
 
-# FORMULARIO ALTA DESEOS :film_strip:
-<img height="600px" width="400px" src="/web/images/16.png">
+# FORMULARIO ALTAS PRÓXIMOS VISIONADOS :film_strip:
+<img height="600px" width="400px" src="/web/images/Screenshot_17.png">
 
-# TABLA DESEOS :film_projector:
-<img height="200px" width="1000px" src="/web/images/8.png">
+# LISTADO DE PRÓXIMAS PELÍCULAS QUE VERÉ Y PUNTUARÉ :clapper:
+<img height="600px" width="600px" src="/web/images/Screenshot_12.png">
 
 # FOOTER :clapper:
 <img height="200px" width="1000px" src="/web/images/9.png">
