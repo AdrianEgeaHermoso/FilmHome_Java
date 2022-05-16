@@ -6,7 +6,28 @@
 
 
 # CARD BIENVENIDA :film_projector:
-<img height="400px" width="800px" src="/web/images/1.png">
+<img height="600px" width="600px" src="/web/images/Screenshot_1.png">
+
+# FORMULARIO LOGIN :clapper:
+<img height="600px" width="600px" src="/web/images/Screenshot_2.png">
+
+# LOGIN INCORRECTO :clapper:
+<img height="600px" width="600px" src="/web/images/Screenshot_3.png">
+
+# REDIRECCIÓN A FORMULARIO LOGIN SI ALGUIEN INTENTA ACCEDER A LA PÁGINA PERFIL DE USUARIO :clapper:
+<img height="600px" width="600px" src="/web/images/Screenshot_9.png">
+
+# LOGIN CORRECTO :clapper:
+<img height="600px" width="600px" src="/web/images/Screenshot_4.png">
+
+# PERFIL USUARIO :clapper:
+<img height="600px" width="600px" src="/web/images/Screenshot_5.png">
+
+# REDIRECCIÓN A PERFIL SINO ERES ADMIN E INTENTAS ACCEDER A PÁGINAS EXCLUSIVAS DE ADMIN :clapper:
+<img height="600px" width="600px" src="/web/images/Screenshot_6.png">
+
+# ACCESO A CONTENIDO PARA USUARIOS CON PERFIL CREADO :clapper:
+<img height="600px" width="600px" src="/web/images/Screenshot_7.png">
 
 # BOTÓN FORMULARIO ALTAS PELÍCULAS :clapper:
 <img height="200px" width="1000px" src="/web/images/2.png">
