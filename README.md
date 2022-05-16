@@ -30,10 +30,10 @@
 <img height="600px" width="600px" src="/web/images/Screenshot_7.png">
 
 # LISTADO DE PELÍCULAS VISTAS Y PUNTUADAS :clapper:
-<img height="600px" width="600px" src="/web/images/Screenshot_8.png">
+<img height="200px" width="1000px" src="/web/images/Screenshot_8.png">
 
 # LISTADO DE PRÓXIMOS VISIONADOS DE PELÍCULAS :clapper:
-<img height="600px" width="600px" src="/web/images/Screenshot_10.png">
+<img height="200px" width="1000px" src="/web/images/Screenshot_10.png">
 
 # ACCESO A CONTENIDO PARA EL ADMINISTRADOR CON CONTADOR DE VISITAS Y POSIBILIDAD DE MODIFICAR CONTENIDO DEL SITIO :clapper:
 <img height="600px" width="600px" src="/web/images/Screenshot_11.png">
@@ -45,10 +45,10 @@
 <img height="600px" width="600px" src="/web/images/Screenshot_14.png">
 
 # LISTADO DE PELÍCULAS VISTAS Y PUNTUADAS CON POSIBILIDAD DE ELIMINAR :clapper:
-<img height="600px" width="600px" src="/web/images/Screenshot_12.png">
+<img height="200px" width="1000px" src="/web/images/Screenshot_12.png">
 
 # PANEL CON INPUTS PARA MODIFICAR EL LISTADO DE PELÍCULAS VISTAS :clapper:
-<img height="600px" width="600px" src="/web/images/Screenshot_13.png">
+<img height="200px" width="1000px" src="/web/images/Screenshot_13.png">
 
 # CARDS DE PRÓXIMOS EVENTOS Y PRÓXIMOS ESTRENOS :film_strip:
 <img height="400px" width="800px" src="/web/images/5.png">
@@ -63,7 +63,7 @@
 <img height="600px" width="400px" src="/web/images/Screenshot_17.png">
 
 # LISTADO DE PRÓXIMAS PELÍCULAS QUE VERÉ Y PUNTUARÉ :clapper:
-<img height="600px" width="600px" src="/web/images/Screenshot_12.png">
+<img height="200px" width="1000px" src="/web/images/Screenshot_16.png">
 
 # FOOTER :clapper:
 <img height="200px" width="1000px" src="/web/images/9.png">
