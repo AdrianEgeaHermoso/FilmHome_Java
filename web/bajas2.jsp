@@ -24,7 +24,7 @@
       s.close();
     %>	
     <script>
-    alert("Deseo Borrado");
+    alert("Borrado correctamente");
     document.location = "index.jsp"</script>
     </body>
 </html>
