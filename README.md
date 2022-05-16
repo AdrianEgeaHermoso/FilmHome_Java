@@ -72,6 +72,3 @@
 
 # VENTANAS DE CONFIRMACIÓN LISTADO PELÍCULAS VISTAS Y PUNTUADAS :film_projector:
 <img height="200px" width="330px" src="/web/images/12.png"><img height="200px" width="330px" src="/web/images/11.png"><img height="200px" width="330px" src="/web/images/10.png">
-
-# VENTANAS DE CONFIRMACIÓN LISTADO PRÓXIMOS VISIONADOS :clapper:
-<img height="200px" width="400px" src="/web/images/13.png"><img height="200px" width="400px" src="/web/images/14.png">
