@@ -22,20 +22,38 @@
 
           request.setCharacterEncoding("UTF-8");
           
-          String insercion = "INSERT INTO deseo (id,titulo,genero,precio,formato,puntuacion) VALUES ("
-                           + "'" + request.getParameter("id")
-                           + "','" + request.getParameter("titulo")
-                           + "','" + request.getParameter("genero")
-                           + "','" + request.getParameter("precio")
-                           + "','" + request.getParameter("formato")
-                           + "','" + request.getParameter("puntuacion")
-                           + "')";
-          s.execute(insercion);
-          conexion.close();
+          String consultaIdPelicula = "SELECT * FROM deseo WHERE id="
+                  + request.getParameter("id");
+
+          ResultSet numeroDePeliculas = s.executeQuery(consultaIdPelicula);
+          numeroDePeliculas.last();
+
+          if (numeroDePeliculas.getRow() != 0) {
+            %>
+            <script>
+            alert("Pelicula con Id repetido");
+            document.location = "index.jsp"
+        </script>
+        <%
+        
+          } else {
+
+            String insercion = "INSERT INTO deseo (id,titulo,genero,precio,formato,puntuacion) VALUES ("
+                    + "'" + request.getParameter("id")
+                    + "','" + request.getParameter("titulo")
+                    + "','" + request.getParameter("genero")
+                    + "','" + request.getParameter("precio")
+                    + "','" + request.getParameter("formato")
+                    + "','" + request.getParameter("puntuacion")
+                    + "')";
+            s.execute(insercion);
+            
+          }
+            conexion.close();
         %>
         <script>
-        alert("Añadido correctamente");
-        document.location = "index.jsp"
-    </script>
+            alert("Próximo visionado añadido");
+            document.location = "index.jsp"
+        </script>
     </body>
 </html>
