@@ -15,27 +15,46 @@
         <title>Altas</title>
     </head>
     <body>
-         <%
+        <%
           Class.forName("com.mysql.jdbc.Driver");
           Connection conexion = DriverManager.getConnection("jdbc:mysql://localhost:3308/youtube?useSSL=false&allowPublicKeyRetrieval=true", "root", "root");
           Statement s = conexion.createStatement();
 
           request.setCharacterEncoding("UTF-8");
-          
-          String insercion = "INSERT INTO pelicula (id,titulo,genero,precio,formato,puntuacion) VALUES ("
-                           + "'" + request.getParameter("id")
-                           + "','" + request.getParameter("titulo")
-                           + "','" + request.getParameter("genero")
-                           + "','" + request.getParameter("precio")
-                           + "','" + request.getParameter("formato")
-                           + "','" + request.getParameter("puntuacion")
-                           + "')";
-          s.execute(insercion);
-          conexion.close();
+
+          String consultaIdPelicula = "SELECT * FROM pelicula WHERE id="
+                  + request.getParameter("id");
+
+          ResultSet numeroDePeliculas = s.executeQuery(consultaIdPelicula);
+          numeroDePeliculas.last();
+
+          if (numeroDePeliculas.getRow() != 0) {
+            %>
+            <script>
+            alert("Pelicula con Id repetido");
+            document.location = "index.jsp"
+        </script>
+        <%
+        
+          } else {
+
+            String insercion = "INSERT INTO pelicula (id,titulo,genero,precio,formato,puntuacion) VALUES ("
+                    + "'" + request.getParameter("id")
+                    + "','" + request.getParameter("titulo")
+                    + "','" + request.getParameter("genero")
+                    + "','" + request.getParameter("precio")
+                    + "','" + request.getParameter("formato")
+                    + "','" + request.getParameter("puntuacion")
+                    + "')";
+            s.execute(insercion);
+            
+          }
+            conexion.close();
         %>
         <script>
-        alert("Pelicula Añadida");
-        document.location = "index.jsp"
-    </script>
+            alert("Pelicula Añadida");
+            document.location = "index.jsp"
+        </script>
+        
     </body>
 </html>

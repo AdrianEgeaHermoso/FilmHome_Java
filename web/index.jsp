@@ -106,10 +106,22 @@
                     <th scope="col">Titulo</th>
                     <th scope="col">Genero</th>
                     <th scope="col">Puntuación</th>
-                    <th scope="col">Editar</th>
                         <%
                           if (session.getAttribute("usuario").equals("admin")) {
                         %>
+                    <th scope="col">Editar</th>
+                        <%
+                        } else {
+                        %>
+
+
+                    <%
+                      }
+                    %>
+
+                    <%
+                      if (session.getAttribute("usuario").equals("admin")) {
+                    %>
                     <th scope="col">Eliminar</th>
                         <%
                         } else {
@@ -132,7 +144,24 @@
                     <td><%=listado.getString("titulo")%></td>
                     <td><%=listado.getString("genero")%></td>
                     <td><%=listado.getString("puntuacion")%></td>
-                    <td><a class="btn btn-warning btn-sm" href="formularioeditar.jsp"><img src="./images/pencil-fill.svg" alt="editar" /><p></p>  Editar</a></td>
+                    <%
+                      if (session.getAttribute("usuario").equals("admin")) {
+                    %>
+                    <td><form method="get" action="formularioeditar.jsp">
+                            <input type="hidden" name="id" value="<%=listado.getString("id")%>">
+                            <input type="hidden" name="titulo" value="<%=listado.getString("titulo")%>">
+                            <input type="hidden" name="genero" value="<%=listado.getString("genero")%>">
+                            <input type="hidden" name="puntuacion" value="<%=listado.getString("puntuacion")%>">
+                            <button type="submit"  class="btn btn-warning btn-sm"><img src="./images/pencil-fill.svg" alt="editar" /><p></p> Editar</button>
+                        </form></td>
+                        <%
+                        } else {
+                        %>
+
+
+                    <%
+                      }
+                    %>
                     <%
                       if (session.getAttribute("usuario").equals("admin")) {
                     %>
@@ -164,48 +193,6 @@
             </tbody>
 
         </table>
-
-
-        <%
-          if (session.getAttribute("usuario").equals("admin")) {
-        %>
-        <h2 style="background-color: #323539;">ACTUALIZACIONES</h2>
-
-
-        <table class="table table-dark table-hover" style="margin-bottom: 100px">
-            <thead>
-                <tr class="text-center">
-                    <th scope="col">Id (obligatorio)</th>
-                    <th scope="col">Titulo</th>
-                    <th scope="col">Genero</th>
-                    <th scope="col">Puntuación</th>
-                    <th scope="col">Modificar</th>
-                </tr>
-            </thead>
-            <form method="get" action="modificar.jsp">
-                <tr><td><input type="text" name="id"></td>
-                    <td><input type="text" name="titulo"></td>
-                    <td><input type="text" name="genero"></td>
-                    <td><input type="text" name="puntuacion"></td>
-                    <td><button type="submit" value="Añadir" class="btn btn-warning btn-sm"><img src="./images/pencil-fill.svg" alt="x" /><p></p>Modificar</button></td></tr>           
-            </form>
-
-        </table>
-        <%
-        } else {
-        %>
-
-
-        <%
-          }
-        %>
-
-
-
-
-
-
-
 
         <div class="grid">
             <div class="row">

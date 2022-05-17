@@ -22,7 +22,6 @@
 
 
         %>
-       
         <div class="card border-dark mb-3 position-absolute top-50 start-50 translate-middle" style="max-width: 50rem;">
             <div class="card-header" style="background-color: #323539; color: white">Modifique los datos una película existente</div>
             <div class="card-body text-dark">
@@ -30,19 +29,19 @@
             <form method="get" action="modificar.jsp">
                 <div class="mb-3">
                     <label for="id" class="form-label">Id</label>
-                    <input type="text" class="form-control" name="id" aria-describedby="id">
+                    <input type="text" class="form-control" name="id" aria-describedby="id" value="<%= request.getParameter("id") %>" readonly>
                 </div>
                 <div class="mb-3">
                     <label for="titulo" class="form-label">Titulo</label>
-                    <input type="text" class="form-control" name="titulo" aria-describedby="titulo">
+                    <input type="text" class="form-control" name="titulo" value="<%= request.getParameter("titulo") %>">
                 </div>
                 <div class="mb-3">
                     <label for="genero" class="form-label">Genero</label>
-                    <input type="text" class="form-control" name="genero" aria-describedby="genero">
+                    <input type="text" class="form-control" name="genero" value="<%= request.getParameter("genero") %>">
                 </div>
                 <div class="mb-3">
                     <label for="puntuacion" class="form-label">Puntuacion</label>
-                    <input type="text" class="form-control" name="puntuacion" aria-describedby="puntuacion">
+                    <input type="text" class="form-control" name="puntuacion" value="<%= request.getParameter("puntuacion") %>">
                 </div>
                 <button type="submit" class="btn btn-primary">Aceptar</button>
             </form>
