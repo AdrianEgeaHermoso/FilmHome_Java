@@ -106,6 +106,7 @@
                     <th scope="col">Titulo</th>
                     <th scope="col">Genero</th>
                     <th scope="col">Puntuación</th>
+                    <th scope="col">Editar</th>
                         <%
                           if (session.getAttribute("usuario").equals("admin")) {
                         %>
@@ -131,6 +132,7 @@
                     <td><%=listado.getString("titulo")%></td>
                     <td><%=listado.getString("genero")%></td>
                     <td><%=listado.getString("puntuacion")%></td>
+                    <td><a class="btn btn-warning btn-sm" href="formularioeditar.jsp"><img src="./images/pencil-fill.svg" alt="editar" /><p></p>  Editar</a></td>
                     <%
                       if (session.getAttribute("usuario").equals("admin")) {
                     %>
