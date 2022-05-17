@@ -2,7 +2,7 @@
 :film_strip: Crud sobre un sitio web en el que me muestro como crítico de cine, y voy añadiendo películas que he visto, las cuales voy puntuando, ademas de recomendaciones de películas, noticias sobre el mundo del cine, estrenos, festivales etc... un usuario no logueado no puede accerder a las distintas páginas, un usuario logueado puede acceder al contenido del sitio web, y un usuario administrador puede acceder a mayor cantidad de opciones para poder modificar el contenido que ven el resto de usuarios  :film_projector:
 
 # VIDEO YOUTUBE EXPLICATIVO :film_strip:
-[![VER VIDEO](https://img.youtube.com/vi/9ShoxWGMb0Q/0.jpg)](https://www.youtube.com/watch?v=9ShoxWGMb0Q)
+[![VER VIDEO](https://img.youtube.com/vi/topBCY8em7g/0.jpg)](https://www.youtube.com/watch?v=topBCY8em7g)
 
 
 # CARD BIENVENIDA :film_projector:
