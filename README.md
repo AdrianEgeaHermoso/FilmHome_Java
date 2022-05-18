@@ -59,7 +59,7 @@
 <img height="200px" width="1000px" src="/web/images/Screenshot_18.png">
 
 # FORMULARIO EDITAR PELÍCULAS CON ID SOLO LECTURA  :film_projector:
-<img height="600px" width="600px" src="/web/images/Screenshot_14.png">
+<img height="600px" width="600px" src="/web/images/Screenshot_19.png">
 
 # VENTANA INFORMANDO SI SE HA INTRODUCIDO UN ALTA CON ID REPETIDA :film_strip:
 <img height="200px" width="1000px" src="/web/images/Screenshot_20.png">
