@@ -52,14 +52,17 @@
 # BOTÓN FORMULARIO ALTAS PELÍCULAS :film_strip:
 <img height="200px" width="1000px" src="/web/images/2.png">
 
-# FORMULARIO ALTA PELÍCULAS :film_projector:
+# FORMULARIO ALTA PELÍCULAS  :film_projector:
 <img height="600px" width="600px" src="/web/images/Screenshot_14.png">
 
-# LISTADO DE PELÍCULAS VISTAS Y PUNTUADAS CON POSIBILIDAD DE ELIMINAR :clapper:
-<img height="200px" width="1000px" src="/web/images/Screenshot_12.png">
+# LISTADO DE PELÍCULAS VISTAS Y PUNTUADAS CON POSIBILIDAD DE EDITAR Y ELIMINAR :clapper:
+<img height="200px" width="1000px" src="/web/images/Screenshot_18.png">
 
-# PANEL CON INPUTS PARA MODIFICAR EL LISTADO DE PELÍCULAS VISTAS :film_strip:
-<img height="200px" width="1000px" src="/web/images/Screenshot_13.png">
+# FORMULARIO EDITAR PELÍCULAS CON ID SOLO LECTURA  :film_projector:
+<img height="600px" width="600px" src="/web/images/Screenshot_14.png">
+
+# VENTANA INFORMANDO SI SE HA INTRODUCIDO UN ALTA CON ID REPETIDA :film_strip:
+<img height="200px" width="1000px" src="/web/images/Screenshot_20.png">
 
 # BOTÓN FORMULARIO ALTAS PRÓXIMOS VISIONADOS :film_projector:
 <img height="200px" width="1000px" src="/web/images/Screenshot_15.png">
